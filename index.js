@@ -15,6 +15,10 @@ app.get('/', (req, res) => {
   res.send('Hello World');
 });
 
+app.put('/', (req, res) => {
+  res.send('Hello World from put api');
+})
+
 app.post('/', (req, res) => {
   res.send('Hello World from post api');
 });
