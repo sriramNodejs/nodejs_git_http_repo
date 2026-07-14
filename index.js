@@ -17,6 +17,10 @@ app.get('/', (req, res) => {
 
 app.put('/', (req, res) => {
   res.send('Hello World from put api');
+})
+
+app.post('/', (req, res) => {
+  res.send('Hello World from post api');
 });
 
 app.listen(process.env.PORT || 3000, () => {
